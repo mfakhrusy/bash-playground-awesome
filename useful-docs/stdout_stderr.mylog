@@ -1,0 +1,14 @@
+1. stdout to a file
+ls -lha > ls-lha.txt
+
+2. stderr to a file
+grep da * 2> grep-errors.txt
+
+3. stdout to stderr
+grep da * 1>&2
+
+4. stderr to stdout
+grep * 2>&1
+
+5. stderr & stdout to a file
+rm -r $(find / -name core) &> /dev/null

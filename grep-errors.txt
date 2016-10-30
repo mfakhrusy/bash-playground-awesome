@@ -1,0 +1,2 @@
+Binary file /initrd.img matches
+Binary file /vmlinuz matches
